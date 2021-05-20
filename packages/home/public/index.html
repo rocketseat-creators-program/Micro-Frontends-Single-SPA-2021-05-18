@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script src="http://localhost:3002/remoteEntry.js"></script>
+    <script src="http://localhost:3003/remoteEntry.js"></script>
+    <script src="http://localhost:3004/remoteEntry.js"></script>
+    <script src="http://localhost:3005/remoteEntry.js"></script>
+  </head>
+  <body class="bg-gray-100">
+    <div class="container mx-auto mt-10">
+      <div class="flex shadow-md my-10">
+        <div class="w-3/4 bg-white px-10 py-10">
+          <div
+
+            id="single-spa-application:header"
+            style="border: 5px dashed blue"
+          ></div>
+          <div
+            style="border: 5px dashed #ffc72c"
+            id="single-spa-application:product-list"
+          ></div>
+        </div>
+        <div style="background-color: #f6f6f6" class="w-1/4 px-8 py-10">
+          <div
+            style="border: 5px dashed red"
+            id="single-spa-application:summary"
+          ></div>
+          <div
+            style="border: 5px dashed blue"
+            id="single-spa-application:checkout"
+          ></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -20,7 +20,7 @@ para gerenciar nosso estado.
 Clone o repositório.
 
 ```sh
-gh repo clone
+gh repo clone git@github.com:rocketseat-experts-club/Micro-Frontends-Single-SPA-2021-05-18.git
 react-single-spa
 ```
 
